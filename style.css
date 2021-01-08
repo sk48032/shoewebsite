@@ -383,6 +383,12 @@ img{
 
 /*===== WOMEN SNEAKERS =====*/
 
+.women_container{
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+
 
 /*===== OFFER =====*/
 
