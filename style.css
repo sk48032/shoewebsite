@@ -226,6 +226,36 @@ img{
 
 /*BUTTONS*/
 
+.button{
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: 1.125rem 2rem;
+    font-weight: var(--font-medium);
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button:hover{
+    transform: translateY(-.25rem);
+}
+
+.button-light{
+    display:inline-flex;
+    color: var(--dark-color);
+    font-weight: var(--font-bold);
+    align-items: center;
+}
+
+.button-icon{
+    font-size: 1.25rem;
+    margin-left:var(--mb-1);
+    transition: .3s;
+}
+
+.button-light:hover{
+    transform: translateX(.25rem);
+}
 
 /*===== FEATURED =====*/
 
