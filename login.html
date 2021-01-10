@@ -1,33 +1,131 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- ===== CSS ===== -->
-        
+        <link rel="stylesheet" href="style.css">
 
         <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         
 
-        <title>Responsive Ecommerce Website Sneakers</title>
+        <title>Login</title>
     </head>
     <body>
 
         <!--===== HEADER =====-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-grid">
+                <div class="nav_toggle" id="nav-toggle">
+                  <i class='bx bx-menu'></i>
+                </div>
+
+                <a href="#" class="nav_logo">Shoe</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="./index.html" class="nav_link">Home</a></li>
+                        <li class="nav_item"><a href="./index.html#featured" class="nav_link">Featured</a></li>
+                        <li class="nav_item"><a href="./index.html#women" class="nav_link">Women</a></li>
+                        <li class="nav_item"><a href="./index.html#new" class="nav_link">New</a></li>
+                        <li class="nav_item"><a href="./shop.html" class="nav_link">Shop</a></li>
+                        <li class="nav_item"><a href="#login" class="nav_link active">Login</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="nav_shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+            </nav>
+        </header>
+
+
         
-
-        <main class="l-main">
-            
-        </main>
-
-
-        <!--===== LOGIN FORM =====-->
-
-        <!--===== FOOTER =====-->
         
+        <section class="section_2nd">
+            <div class="container">
+              <div class="user signinBx">
+                <div class="imgBx"><img src="img/loginwallpaper.png" alt="" /></div>
+                <div class="formBx">
+                  <form action="" onsubmit="return false;">
+                    <h2>Sign In</h2>
+                    <input type="text" name="" placeholder="Username" />
+                    <input type="password" name="" placeholder="Password" />
+                    <input type="submit" name="" value="Login" />
+                    <p class="signup">
+                      Don't have an account ?
+                      <a href="#" onclick="toggleForm();">Sign Up.</a>
+                    </p>
+                  </form>
+                </div>
+              </div>
+              <div class="user signupBx">
+                <div class="formBx">
+                  <form action="" onsubmit="return false;">
+                    <h2>Create an account</h2>
+                    <input type="text" name="" placeholder="Username" />
+                    <input type="email" name="" placeholder="Email Address" />
+                    <input type="password" name="" placeholder="Create Password" />
+                    <input type="password" name="" placeholder="Confirm Password" />
+                    <input type="submit" name="" value="Sign Up" />
+                    <p class="signup">
+                      Already have an account ?
+                      <a href="#" onclick="toggleForm();">Sign in.</a>
+                    </p>
+                  </form>
+                </div>
+                <div class="imgBx"><img src="img/loginwallpaper2.png" alt="" /></div>
+              </div>
+            </div>
+          </section>
+        
+      
+
+        <!--FOOTER-->
+        <footer class="fotter section">
+            <div class="fotter_container bd-grid">
+                <div class="fotter_box">
+                    <h3 class="footer_title">Shoe</h3>
+                    <p class="footer_description">New collection of shoes 2021</p>
+                </div>
+
+                <div class="footer_box">
+                    <h3 class="footer_title">EXPLORE</h3>
+                    <ul>
+                        <li><a href="#home" class="footer_link">Home</a></li>
+                        <li><a href="#featured" class="footer_link">Featured</a></li>
+                        <li><a href="#women" class="footer_link">Women</a></li>
+                        <li><a href="#new" class="footer_link">New</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_box">
+                    <h3 class="footer_title">SUPPORT</h3>
+                    <ul>
+                        <li><a href="#" class="footer_link">Product Help</a></li>
+                        <li><a href="#" class="footer_link">Customer Care</a></li>
+                        <li><a href="#" class="footer_link">Athorized service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_box">
+                    <a href="#" class="footer_social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#" class="footer_social"><i class='bx bxl-google' ></i></a>
+                </div>
+
+                <p class="footer_copy">&#169; 2021 Inxhinjeri Projekt. All rights reserved</p>
+            </div>
+        </footer>
+      
 
         <!--===== MAIN JS =====-->
-        
+        <script src="main.js"></script>
+
     </body>
 </html>
