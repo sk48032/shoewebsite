@@ -540,11 +540,6 @@ img{
 
 /*===== FOOTER =====*/
 
-https://github.com/sk48032/shoewebsite.git
-
-
-
-
 .footer_container{
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
