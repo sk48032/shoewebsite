@@ -502,6 +502,41 @@ img{
 
 /*===== FOOTER =====*/
 
+https://github.com/sk48032/shoewebsite.git
+
+
+
+
+.footer_container{
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.footer_box{
+    margin-bottom: var(--mb-4);
+}
+
+.footer_title{
+    font-size: var(--big-font-size);
+}
+
+.footer_link{
+    display: block;
+    width: max-content;
+    margin-bottom: var(--mb-1);
+}
+
+.footer_social{
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+}
+
+.footer_copy{
+    padding-top: 3rem;
+    font-size: var(--smaller-font-size);
+    color: var(--dark-color-ligh);
+    text-align: center;
+}
+
 
 /*===== LOGIN FORM =====*/
 
